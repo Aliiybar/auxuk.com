@@ -17,6 +17,8 @@ jobs:
       with:
         server: ftp.logicmade.com
         username: ali@logicmade.com
+        protocol: ftps
+        security: loose
         password: ${{ secrets.FTP_PASSWORD }}
         timeout: 60000
         local-dir: ./
