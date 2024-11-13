@@ -742,6 +742,6 @@
 })(jQuery)
 
 
-$('#navigation').load('./partials/navigation.html');
+//$('#topnav').load('./partials/navigation.html');
 $('#slides').load('./partials/slides.html');
 $('#footer').load('./partials/footer.html');
