@@ -18,5 +18,6 @@ jobs:
         server: ftp.logicmade.com
         username: ali@logicmade.com
         password: ${{ secrets.FTP_PASSWORD }}
+        secure: false
         local_dir: ./
         server_dir: /test.logicmade.co.uk/
