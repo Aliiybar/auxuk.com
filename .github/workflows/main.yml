@@ -20,6 +20,6 @@ jobs:
         protocol: ftps
         security: loose
         password: ${{ secrets.FTP_PASSWORD }}
-        timeout: 60000
+        timeout: 90000
         local-dir: ./
         server-dir: /test.logicmade.co.uk/
