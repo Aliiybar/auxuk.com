@@ -1138,7 +1138,19 @@ section.dark .icon-box-small.boxed {
 .icon-box-simple > i {
   font-size: 50px;
 }
+.icon-box-simple > a > i {
+  font-size: 50px;
+}
 .icon-box-simple > span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.icon-box-simple > a > span {
   display: block;
   text-transform: uppercase;
   font-size: 11px;
